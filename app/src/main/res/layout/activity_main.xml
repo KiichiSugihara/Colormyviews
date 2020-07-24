@@ -8,12 +8,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        style="@style/whiteBox"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_wide"
         android:layout_marginTop="@dimen/margin_wide"
         android:layout_marginRight="@dimen/margin_wide"
-        android:text="Hello World!"
+        android:text="@string/box_one"
+        android:textSize="@dimen/box_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
